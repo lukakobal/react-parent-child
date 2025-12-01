@@ -1,0 +1,22 @@
+.app {
+  min-height: 100vh;
+  padding: 40px;
+  text-align: center;
+  transition: background 0.3s, color 0.3s;
+  background: white;
+  color: black;
+}
+
+.app.dark {
+  background: #121212;
+  color: white;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+}
